@@ -1,0 +1,47 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333; /* Change to your desired background color */
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+  }
+  
+  .contact-info {
+    color: white;
+  }
+  
+  /* Add the following styles for the horizontal block */
+  
+  .horizontal-block {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    align-self: center;
+    height: 10px; /* Adjust the height of the block */
+    background-color: #ffc107; /* Change to your desired background color */
+    z-index: 9999; /* Make sure it's on top of other content */
+  }
+  

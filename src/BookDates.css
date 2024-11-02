@@ -1,0 +1,104 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css);
+@import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0);
+.book-dates {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.book-dates h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.book-dates ul {
+  list-style: none;
+  padding: 0;
+}
+.book-dates li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.del-button {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.book-dates h2:nth-of-type(2) {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.save-button {
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.del-button,
+.save-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 0.5em;
+  border: solid 1px #000 !important;
+  color: #f5f5f5 !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 700;
+  height: 3.5em;
+  letter-spacing: 0.1em;
+  line-height: 3.5em;
+  overflow: hidden;
+  padding: 0 2em;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.del-button:hover,
+.save-button:hover {
+  background-color: #f5f5f5;
+  color: #050505 !important;
+}
+.del-button:active,
+.save-button:active {
+  background-color: rgba(144, 144, 144, 0.2);
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+.input-container input {
+  flex: 1;
+}
+.bdl {
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.del-button {
+  display: flex;
+  align-items: center;
+}

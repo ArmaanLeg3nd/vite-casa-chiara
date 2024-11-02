@@ -1,0 +1,33 @@
+.statistics {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+.statistics h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.chart-container {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.274) 0 2px 4px;
+  border-radius: 5px;
+  border-left: 1rem solid #779fdf;
+}
+@media (max-width: 850px) {
+  .chart-container {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .statistics {
+    gap: 20px;
+    padding: 8px;
+  }
+}
